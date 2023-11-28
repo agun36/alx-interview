@@ -9,7 +9,8 @@ def pascal_triangle(n):
     Parameters:
         n (int): The size of the Pascal's triangle.
     Returns:
-        list of lists: A list of lists representing the Pascal's triangle.
+        list of lists: A list of lists representing the
+        Pascal's triangle.
     """
     if n <= 0:
         return []
