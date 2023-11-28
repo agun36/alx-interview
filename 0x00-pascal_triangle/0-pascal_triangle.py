@@ -1,8 +1,12 @@
-# Create a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n:
+"""
+Generates a Pascal's triangle of size n.
 
-# Returns an empty list if n <= 0
-# You can assume n will be always an integer
+Parameters:
+    n (int): The size of the Pascal's triangle.
 
+Returns:
+    list of lists: A list of lists representing the Pascal's triangle.
+"""
 def pascal_triangle(n):
     if n <= 0:
         return []
