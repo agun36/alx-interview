@@ -1,12 +1,5 @@
 #!/usr/bin/python3
-"""
-0-pascal_triangle
-"""
-
 def pascal_triangle(n):
-    """
-    Pascal's triangle
-    """
     if n <= 0:
         return []
     triangle = [[1]]
